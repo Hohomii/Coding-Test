@@ -1,0 +1,10 @@
+class Solution {
+    public int[] solution(int[] num_list) {
+        int[] reverseList = new int[num_list.length];
+
+        for (int i=num_list.length-1, j=0; i >= 0; i--, j++) {
+                reverseList[j] = num_list[i];
+        }
+        return reverseList;
+    }
+}
