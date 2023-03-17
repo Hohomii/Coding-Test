@@ -2,8 +2,8 @@ import java.util.*;
 
 class Solution {
     public int solution(int[] array) {
-        Arrays.sort(array);
-        int center = array.length / 2; 
-        return array[center];
+            Arrays.sort(array);
+            int answer = array[array.length / 2];
+            return answer;
     }
 }
