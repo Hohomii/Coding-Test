@@ -1,6 +1,3 @@
-import java.util.Arrays;
-import java.util.Collections;
-
 class Solution {
     public int solution(int[] array, int n) {
         int answer = 0;
