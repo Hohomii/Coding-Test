@@ -3,3 +3,6 @@
 
 SELECT COUNT(USER_ID) AS USERS FROM USER_INFO
 WHERE AGE IS NULL
+
+# count는 null을 세지 않음!
+# 왜 정답이 2가 아니고 4인지...;;
