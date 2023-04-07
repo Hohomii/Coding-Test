@@ -4,7 +4,7 @@ class Solution {
                 char answer = s.charAt(s.length() / 2);
                 return Character.toString(answer);
             } else {
-                return s.substring(s.length() / 2 -1, s.length() / 2 + 1);
+                return s.substring(s.length() / 2 - 1, s.length() / 2 + 1);
             }
     }
 }
