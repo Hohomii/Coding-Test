@@ -6,7 +6,7 @@
 class Solution {
     public int[] solution(long n) {
         String num = Long.toString(n);
-        int[] answer = new int[num.length()];
+        int[] answer = new int[(int)(Math.log10(n)+1)];
         int idx = 0;
         while(n > 0) {
             answer[idx] = (int)(n % 10);    // 타입형변환 정리 필요. (int)n % 10 은 왜 안 되는지?
@@ -20,15 +20,8 @@ class Solution {
         
     }
 }
-        
-        
-        
-        
-        
-        
-        
-        
-        
+   
+
         
 //         int[] answer = new int[(int)(Math.log10(n)+1)]; //n의 길이의 배열 선언
 //         int idx = 0;
