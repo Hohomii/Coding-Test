@@ -1,6 +1,6 @@
 // 단어를 공백 기준 자른 후 하나하나를  [try, hello, world]
 // 홀수번째 인덱스만 대문자로 치환
-// 인덱스를 생성해서 활용!
+// 인덱스를 생성해서 활용한다는 생각을 못했다!
 
 class Solution {
     public String solution(String s) {
