@@ -9,7 +9,7 @@ class Solution {
         int[] answer = new int[num.length()];
         int idx = 0;
         while(n > 0) {
-            answer[idx] = (int)(n % 10);
+            answer[idx] = (int)(n % 10);    // 타입형변환 정리 필요. (int)n % 10 은 왜 안 되는지?
             n = n / 10;
             idx++;
         }
