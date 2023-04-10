@@ -69,3 +69,10 @@ class Solution {
 //         return answer;
 //     }
 // }
+
+// 이 풀이도 굿굿
+// List<Integer> list = Arrays.stream(arr).boxed().collect(Collectors.toList());
+//         Arrays.sort(arr);
+//         list.remove(list.indexOf(arr[0]));
+//         if (list.size() <= 0) return new int[]{-1};
+//         return list.stream().mapToInt(i->i).toArray();
